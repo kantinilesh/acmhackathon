@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-green-400">HackBad</span>
+              <span className="text-2xl font-bold text-green-400">HeisenHack</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
               Breaking barriers in innovation. Join us for 24 hours of intense coding, 
@@ -42,15 +42,15 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
-              <p>hackbad@club.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>Tech Campus<br />Innovation Hub</p>
+              <p>acmsigkdd@srmist.edu.in</p>
+              <p>+91 97358 44700</p>
+            
             </div>
           </div>
         </div>
 
         <div className="border-t border-green-400/20 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 HackBad. All rights reserved. Better call our legal team.</p>
+          <p>&copy; 2025 HeisenHack. All rights reserved. Better call our legal team.</p>
         </div>
       </div>
     </footer>
