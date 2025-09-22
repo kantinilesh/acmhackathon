@@ -66,10 +66,14 @@ const PrizePool = () => {
               </div>
             </div>
             {/* Placeholder for future sponsors */}
-            <div className="flex flex-col items-center gap-2">
-              <div className="text-gray-300 text-lg">Future Sponsor</div>
+ <div className="flex flex-col items-center gap-2">
+              <div className="text-gray-300 text-lg">SpazorLabs</div>
               <div className="w-48 h-24 bg-gray-800/50 rounded-lg flex items-center justify-center">
-                <span className="text-gray-500">Coming Soon</span>
+                <img 
+                  src="/Spazor.png" 
+                  alt="Unstop Logo" 
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
             </div>
             <div className="flex flex-col items-center gap-2">

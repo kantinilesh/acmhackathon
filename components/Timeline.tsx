@@ -5,14 +5,12 @@ const Timeline = () => {
   const timelineRef = useRef<HTMLDivElement>(null);
 
   const events = [
-    { time: '9:00 AM', title: 'Registration & Check-in', description: 'Grab your badge and some blue candy breakfast' },
-    { time: '10:00 AM', title: 'Opening Ceremony', description: 'Kickoff with a Heisenberg-style welcome' },
-    { time: '10:30 AM', title: 'Hacking Begins', description: 'Cook your groundbreaking ideas, yo' },
-    { time: '12:30 PM', title: 'Lunch Break', description: 'Refuel with some Los Pollos Hermanos grub' },
-    { time: '6:00 PM', title: 'Dinner & Networking', description: 'Mingle with fellow coding kingpins' },
-    { time: '10:30 AM +1', title: 'Hacking Ends', description: 'Submit your crystal-clear projects' },
-    { time: '11:00 AM +1', title: 'Presentations', description: 'Show off your game-changing demos' },
-    { time: '2:00 PM +1', title: 'Closing & Awards', description: 'Crown the top dogs of the hackathon' },
+    { time: 'Oct 6, 11:59 PM', title: 'PPT Submission Deadline', description: 'Submit your deck before midnight sharp' },
+    { time: 'Oct 9, 10:00 AM', title: 'Hackathon Starts', description: 'Begin your 24-hour Breaking Bad innovation journey' },
+    { time: 'Oct 9, 4:00 PM', title: 'First Review', description: 'Showcase your progress to the mentors' },
+    { time: 'Oct 10, 1:00 AM', title: 'Second Review', description: 'Late-night check-in on your project’s chemistry' },
+    { time: 'Oct 10, 1:00 PM', title: 'Final Pitch', description: 'Present your final cooked-up ideas to the judges' },
+    { time: 'Oct 10, 4:00 PM', title: 'Closing Ceremony', description: 'Celebrate the winners and wrap up the hackathon' },
   ];
 
   useEffect(() => {
@@ -86,7 +84,7 @@ const Timeline = () => {
               data-index={index}
             >
               <div className={`flex-1 flex justify-${index % 2 === 0 ? 'start' : 'end'} pr-12 pl-12`}>
-                <span className="text-green-400 font-semibold text-center w-24">{event.time}</span>
+                <span className="text-green-400 font-semibold text-center w-32">{event.time}</span>
               </div>
               <div className="flex-shrink-0 w-5 h-5 bg-green-400 rounded-full z-10 shadow-[0_0_8px_rgba(34,197,94,0.5)]"></div>
               <div className={`flex-1 ${index % 2 === 0 ? 'text-left pl-12' : 'text-right pr-12'}`}>
@@ -133,3 +131,4 @@ const Timeline = () => {
 };
 
 export default Timeline;
+  

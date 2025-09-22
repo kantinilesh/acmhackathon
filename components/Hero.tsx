@@ -38,10 +38,14 @@ const Hero = () => {
           Cook up the next big thing. Break barriers, not rules.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-green-500 hover:bg-green-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors">
+          <a 
+            href="https://unstop.com/hackathons/heisen-hack-2025-srm-institute-of-science-and-technology-kattankulathur-chennai-1560624" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-green-500 hover:bg-green-600 text-black px-8 py-3 rounded-lg font-semibold transition-colors text-center"
+          >
             Register Now
-          </button>
-          
+          </a>
         </div>
       </div>
     </section>
