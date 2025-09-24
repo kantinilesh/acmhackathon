@@ -14,13 +14,8 @@ const Footer = () => {
               creativity, and collaboration.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
+              
+              <a href="https://www.instagram.com/srm_acm_sigkdd?igsh=NTR2bXhtNDhvY29t" className="text-gray-400 hover:text-green-400 transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
@@ -43,7 +38,10 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
               <p>acmsigkdd@srmist.edu.in</p>
-              <p>+91 97358 44700</p>
+              <p>Aditya - +91 97358 44700</p>
+              <p>
+                Priyanshu - +91 83189 18018
+              </p>
             
             </div>
           </div>

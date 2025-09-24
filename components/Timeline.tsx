@@ -49,7 +49,7 @@ const Timeline = () => {
       {/* Chemical Equipment Decorations */}
       <div className="absolute left-12 top-12 opacity-30">
         <img 
-          src="https://img.icons8.com/color/96/000000/chemical-glass.png"
+          src="https://img.icons8.com/color/96/000000/test-tube.png "
           alt="Chemical Beaker"
           className="w-20 h-20"
         />

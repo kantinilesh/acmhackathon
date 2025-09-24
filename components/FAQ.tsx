@@ -17,7 +17,7 @@ const FAQ = () => {
     },
     {
       question: 'Can I work alone or do I need a team?',
-      answer: 'You can participate individually or form teams of up to 4 members. We also have team formation sessions.'
+      answer: 'You can  form teams of up to 2-4 members.'
     },
     {
       question: 'Is there any registration fee?',
